@@ -13,7 +13,7 @@ cask "vidneat" do
 
   # The app's own Sparkle feed is the source of truth for the latest version.
   livecheck do
-    url "https://ravi923615.github.io/vidneatdowndesktop/appcast.xml"
+    url "https://ravi923615.github.io/homebrew-vidneat/appcast.xml"
     strategy :sparkle, &:short_version
   end
 
