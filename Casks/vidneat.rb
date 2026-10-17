@@ -3,8 +3,8 @@ cask "vidneat" do
   # step of a release. They describe the universal DMG attached to the release
   # on this tap's own (public) repository; the all-zero checksum below is a
   # placeholder that makes an install fail loudly until a release is published.
-  version "1.0.2"
-  sha256 "0ba5f8832e6629ab90aaa81dafd2d507ce2f12ef2eba053d2888326ab9a451fd"
+  version "1.0.3"
+  sha256 "6f17450c7cf4414b83f4aad1b5b17fd8fa7734ba448bb35145641eb0b13e22cf"
 
   url "https://github.com/ravi923615/homebrew-vidneat/releases/download/v#{version}/VidNeat-#{version}-universal.dmg"
   name "VidNeat"
